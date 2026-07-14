@@ -4,3 +4,14 @@ post_id,timestamp,text_content,engagement_score
 103,2026-06-17 11:02:14,LOVING this new app update!! Clean UI and fast speed 🔥🔥,245
 104,2026-06-17 12:45:10,,0
 105,2026-06-17 14:20:55,Decent application could use better dark mode settings honestly.,89
+
+# Data Management Phase
+
+This directory contains the dataset assets utilized for the Social Media Sentiment Analysis application.
+
+## Files Included
+* `cleaned_social_media_data.csv`: The finalized, processed dataset exported after the data cleaning phase.
+
+## Preprocessing Steps Completed:
+1. **Handling Missing Values:** Removed rows where essential text fields (`text_content`) were null or blank.
+2. **Deduplication:** Dropped exact repeating profile entries and duplicate rows to ensure data integrity.
